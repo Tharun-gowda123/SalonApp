@@ -91,13 +91,20 @@
             android:textColor="@color/primaryColor"
             android:layout_marginBottom="16dp"/>
 
-        <Spinner
-            android:id="@+id/timeSlot"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:background="@android:color/white"
-            android:elevation="2dp"
-            android:layout_marginBottom="24dp"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Select Time Slot">
+
+            <AutoCompleteTextView
+                android:id="@+id/timeSlot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:id="@+id/totalPrice"
@@ -120,7 +127,17 @@
             android:textColor="@color/primaryDarkColor"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:cornerRadius="12dp"/>
+            app:cornerRadius="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/historyBtn"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Booking History"
+            android:textColor="@color/primaryColor"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 </ScrollView>

@@ -9,4 +9,6 @@
     <color name="secondaryLightColor">#F4D03F</color>
     <color name="secondaryDarkColor">#9A7D0A</color>
     <color name="backgroundColor">#F4F6F7</color>
+    <color name="textColor">#212121</color>
+    <color name="hintColor">#757575</color>
 </resources>

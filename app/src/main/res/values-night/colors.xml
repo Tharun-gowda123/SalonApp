@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#AED6F1</color> <!-- Light Blue for Dark Mode -->
+    <color name="primaryLightColor">#D6EAF8</color>
+    <color name="primaryDarkColor">#85C1E9</color>
+    <color name="secondaryColor">#F4D03F</color> <!-- Bright Gold -->
+    <color name="backgroundColor">#121212</color>
+    <color name="surfaceColor">#1E1E1E</color>
+</resources>

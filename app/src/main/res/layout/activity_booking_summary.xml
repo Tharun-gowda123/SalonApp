@@ -11,8 +11,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@android:drawable/ic_dialog_info"
-        app:tint="@color/secondaryColor"
+        android:src="@drawable/ic_launcher_foreground"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="16dp"/>
 
@@ -36,8 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="24dp"
-            android:background="@color/white">
+            android:padding="24dp">
 
             <TextView
                 android:id="@+id/summaryDetails"
@@ -57,15 +55,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Advance to Pay"
+                android:text="Total Amount to be Paid"
                 android:textColor="@color/primaryLightColor"
                 android:textSize="14sp"
                 android:textAllCaps="true"/>
 
             <TextView
+                android:id="@+id/totalAmountText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="₹50.00"
+                android:text="₹0.00"
                 android:textColor="@color/primaryColor"
                 android:textSize="32sp"
                 android:textStyle="bold" />
@@ -78,7 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:backgroundTint="@color/primaryColor"
-        android:text="Pay &amp; Confirm"
+        android:text="Confirm Appointment"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
@@ -88,7 +87,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Secure Payment Guaranteed"
+        android:text="Please pay at the salon after service"
         android:textColor="@color/primaryLightColor"
         android:textSize="12sp"
         android:layout_marginTop="16dp"/>
